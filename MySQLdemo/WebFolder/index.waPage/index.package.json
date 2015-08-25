@@ -1,0 +1,59 @@
+{
+	"name": "MySQLdemo/index.waPage/index.html",
+	"type": "page",
+	"version": "1.0.0",
+	"loadDependencies": [
+		{
+			"id": "Desktop_Core",
+			"version": "1.0.0",
+			"type": "core"
+		},
+		{
+			"id": "Widget/dataGrid",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/label",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/buttonImage",
+			"type": "widget"
+		},
+		{
+			"id": "Widget/icon",
+			"type": "widget"
+		},
+		{
+			"package": "default"
+		},
+		{
+			"package": "Image"
+		},
+		{
+			"package": "Text"
+		},
+		{
+			"package": "LoginPanel"
+		},
+		{
+			"package": "TextInput"
+		},
+		{
+			"package": "LoginButton"
+		},
+		{
+			"package": "Container"
+		},
+		{
+			"file": "styles/index.css"
+		},
+		{
+			"file": "application.css",
+			"path": "WEBFOLDER"
+		},
+		{
+			"file": "scripts/index.js"
+		}
+	]
+}

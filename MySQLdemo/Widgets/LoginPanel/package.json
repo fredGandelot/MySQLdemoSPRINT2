@@ -1,0 +1,26 @@
+{
+    "name": "LoginPanel",
+    "type": "widget",
+    "studioName": "LoginPanel",
+    "category": "Automtic Controls",
+    "iconPath": "/icons/widget.png",
+    "author": "Stéphane Puybareau",
+    "version": "1.0.0",
+    "copyright": "(c) 2015 Wakanda",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wakanda/LoginPanel.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 11"},
+    "license": "MIT",
+    "externalWidgets": [ "LoginButton", "TextInput", "Image" ],
+    "loadDependencies": [
+    	{"package": "LoginButton"},
+    	{"package": "TextInput"},
+    	{"package": "Image"},
+        {"file": "widget.js"},
+        {"file": "css/widget.css"},
+        {"file": "designer.js", "studioOnly": true}
+    ]
+}

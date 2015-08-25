@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><directory>
+	<group ID="01000000000000000000000000000000" name="Admin">
+		<include user="admin" ID="060513EBBE23A94297FD944C6FBDEA90"/>
+	</group>
+	<group ID="EB77ECC5D15258439E9204EA22A20B04" name="reader">
+		<include user="reader" ID="442EEC45029FAC47BCBDBEB306254A73"/>
+	</group>
+	<group ID="99551F820A2B104C9AFF403991EBAC54" name="writer">
+		<include user="writer" ID="E060F75547A5534E8604758F48F8AA99"/>
+	</group>
+	<user ID="060513EBBE23A94297FD944C6FBDEA90" name="admin" fullName="" password="003b744708c16733d1eb3371bec208fd"/>
+	<user ID="442EEC45029FAC47BCBDBEB306254A73" name="reader" fullName="" password="90cf091a5700fa75f6125fba24d3f131"/>
+	<user ID="E060F75547A5534E8604758F48F8AA99" name="writer" fullName="" password="a5474682055477851a1e8673d4943d6e"/>
+</directory>

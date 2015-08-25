@@ -1,0 +1,154 @@
+.appearence-vertical,
+.appearence-horizontal {
+	border-radius: 5px;
+	border: 1px solid black;
+	background: white;
+}
+.show-image-no>.waf-img { display: none; }
+
+.show-image-top>.waf-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 144px;	
+}
+.show-image-left>.waf-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	bottom: 0;	
+}
+.appearence-vertical>input {
+	position: absolute;
+	bottom: 102px;
+	left: 10%;
+	width: 80%;
+	height: 22px;
+}
+.appearence-vertical>input+input {
+	bottom: 62px;
+}
+.appearence-vertical.show-image-left>input {
+	left: 55%;
+	width: 40%;
+}
+.appearence-vertical>button {
+	position: absolute;
+	bottom: 10px;
+	left: 20%;
+	width: 60%;
+	height: 34px;
+}
+.appearence-vertical.show-image-left>button {
+	left: 60%;
+	width: 30%;
+}
+
+.appearence-horizontal {
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.appearence-horizontal.show-image-top>.waf-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 54px;	
+}
+.appearence-horizontal>input {
+	position: absolute;
+	bottom: 15px;
+	left: 3%;
+	width: 32%;
+	height: 22px;
+}	
+.appearence-horizontal>input+input {
+	left: 40%;
+	width: 27%;
+}
+.appearence-horizontal>button {
+	position: absolute;
+	bottom: 10px;
+	width: 20%;
+	right: 3%;
+	height: 34px;
+}
+.show-image-left.appearence-horizontal>input {
+	left: 51.5%;
+	width: 16%;	
+}
+.show-image-left.appearence-horizontal>input+input {
+	left: 70%;
+	width: 12,5%;
+}
+.show-image-left.appearence-horizontal>button {
+	right: 1.5%;
+	width: 10%;
+}
+
+
+@-webkit-keyframes shake {
+    from {
+        left:0;
+    }
+    25% {
+        left:-20px;
+    }
+    75% {
+        left:+20px;
+    }
+    to {
+        left:0;
+    }
+}
+@-moz-keyframes shake {
+    from {
+        left:0;
+    }
+    25% {
+        left:-20px;
+    }
+    75% {
+        left:+20px;
+    }
+    to {
+        left:0;
+    }
+}
+@-o-keyframes shake {
+    from {
+        left:0;
+    }
+    25% {
+        left:-20px;
+    }
+    75% {
+        left:+20px;
+    }
+    to {
+        left:0;
+    }
+}
+@keyframes shake {
+    from {
+        left:0;
+    }
+    25% {
+        left:-20px;
+    }
+    75% {
+        left:+20px;
+    }
+    to {
+        left:0;
+    }
+}
+.login-wrong {
+    border-color:#F00;
+    -webkit-animation: shake .3s linear 2;
+    -moz-animation: shake .3s linear 2;
+    -o-animation: shake .3s linear 2;
+    animation: shake .3s linear 2;
+}
