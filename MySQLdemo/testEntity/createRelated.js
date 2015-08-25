@@ -3,30 +3,24 @@
 
 
 //creation
-//var e = ds.leads.createEntity()
-//e.first_name ="glouglu25021980" ;
-//e.last_name="pepito";
-////e.leads_image_id = ds.leads_image.find("ID === d7ec22a9-3b4f-11e5-9b4b-14feb5b938f8");
-//e.save();
-//e.leads_image_id = ds.leads_image.find("ID === d7ec22a9-3b4f-11e5-9b4b-14feb5b938f8");
-//e.save()
-//e;
+var e = ds.leads.createEntity()
+e.first_name ="moinow3" ;
+e.last_name="pepito";
+e.leads_image_id = ds.leads_image.find("ID == d7ec22a9-3b4f-11e5-9b4b-14feb5b938f8");
+e.save();
+e.leads_image_id;
+
+
 
 
 //verification
 //var e = ds.leads.all();
-//var e = ds.leads.query('first_name == glouglu25021980');
-//e.leads_image_id
+var e = ds.leads.query('first_name == moinow3');
+e.leads_image_id;
 
 
 
 
-//update sans for each
-//image = c492
-var update = ds.leads("11710590-8eb8-f0d2-8e07-559502af47c3")
-update.leads_image_id= ds.leads_image.find('ID=d7ec22a9-3b4f-11e5-9b4b-14feb5b938f8')
-update.save();
-update;
 
 //====================BUG1   ====================
 
