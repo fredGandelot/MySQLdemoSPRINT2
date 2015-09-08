@@ -1,6 +1,6 @@
-//demonstrate remove. remove the latest one
-
-var entity = ds.accounts.query('name ==	 toto');
+//demonstrate remove entity. remove a collection
+var entity = ds.leads.query('first_name == moinow');
 //entity.remove();
-entity;
+
+
 

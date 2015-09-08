@@ -4,13 +4,9 @@
 ////*********FROM LEADS TO IMAGE***************
 
 var bug =ds.leads.query('leads_image_id is not null');
-//bug.toArray ("id,leads_image_id.");   // HERE WE CAN NOTICE THAT THE IDs are different ! 
 bug; // all the same >_< weird :)))
+bug.leads_image_id //(does not work for the related attribute)
 
-
-//:Bug n°2
-//bug.leads_image_id //(does not work for the related attribute)
-//bug.id //works
 
 ////Selection d'un Lead
 //var l = ds.leads.first()
