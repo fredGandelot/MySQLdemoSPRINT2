@@ -1,7 +1,5 @@
 
-// THE PROBLEM IS HERE !!!!
-//EVERYTIME THE SAME KEY §
-////*********FROM LEADS TO IMAGE***************
+
 
 var bug =ds.leads.query('leads_image_id is not null');
 bug; // all the same >_< weird :)))
@@ -55,27 +53,27 @@ bug.leads_image_id //(does not work for the related attribute)
 
 
 //=============FONCTION POUR LR ================
-c = ds.leads.query('leads_image_id != null')
+//c = ds.leads.query('leads_image_id != null')
 
-res = []
+//res = []
 
-start = new Date().getTime()
+//start = new Date().getTime()
 
-for(i = 0; i < 100; ++i) {
- o = {}
- 
- c.forEach(function(e) {
-  o[e.leads_image_id.getKey()] = true
- })
- 
- if(Object.keys(o).length != 4) {
-  res.push(o)
- }
-}
+//for(i = 0; i < 100; ++i) {
+// o = {}
+// 
+// c.forEach(function(e) {
+//  o[e.leads_image_id.getKey()] = true
+// })
+// 
+// if(Object.keys(o).length != 4) {
+//  res.push(o)
+// }
+//}
 
-var dt = (new Date().getTime() - start) / 1000
+//var dt = (new Date().getTime() - start) / 1000
 
-x = [dt, res]
+//x = [dt, res]
 
-x
+//x
 
