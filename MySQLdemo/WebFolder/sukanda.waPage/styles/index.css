@@ -3,18 +3,84 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
-#image1 {
+#dataGrid6 {
+	z-index: 2;
+	width: 335px;
+	height: 529px;
+	top: 82px;
+	left: 37px;
+	position: absolute;
+}
+
+#label16 {
 	z-index: 6;
-	width: 203px;
-	height: 204px;
-	top: 105px;
-	left: 465px;
+	width: auto;
+	height: 14px;
+	top: 195px;
+	left: 20px;
+	position: absolute;
+	min-width: 75px;
+}
+
+#dataGrid5 {
+	z-index: 6;
+	width: 300px;
+	height: 300px;
+	top: 214px;
+	left: 20px;
+	position: absolute;
+}
+
+#label15 {
+	z-index: 4;
+	width: auto;
+	height: 14px;
+	top: 110px;
+	left: 15px;
+	position: absolute;
+	min-width: 75px;
+}
+
+#image5 {
+	z-index: 4;
+	width: 120px;
+	height: 110px;
+	top: 62px;
+	left: 95px;
+	position: absolute;
+}
+
+#label14 {
+	z-index: 2;
+	width: auto;
+	height: 14px;
+	top: 24px;
+	left: 15px;
+	position: absolute;
+	min-width: 75px;
+}
+
+#textInput4 {
+	z-index: 2;
+	width: 130px;
+	height: 22px;
+	top: 20px;
+	left: 95px;
+	position: absolute;
+}
+
+#container6 {
+	z-index: 1;
+	width: 340px;
+	height: 534px;
+	top: 83px;
+	left: 398px;
 	position: absolute;
 }
 
 #dataGrid1 {
 	z-index: 5;
-	width: 928px;
+	width: 976px;
 	height: 300px;
 	top: 359px;
 	left: 10px;
@@ -24,9 +90,9 @@
 #label7 {
 	z-index: 4;
 	width: auto;
-	height: 13px;
+	height: 14px;
 	top: 266px;
-	left: 71px;
+	left: 69px;
 	position: absolute;
 }
 
@@ -98,27 +164,27 @@
 
 #label6 {
 	width: auto;
-	height: 13px;
+	height: 14px;
 	top: 215px;
-	left: 742px;
+	left: 740px;
 	position: absolute;
 	color: transparent;
 }
 
 #label5 {
 	width: auto;
-	height: 13px;
+	height: 14px;
 	top: 165px;
-	left: 742px;
+	left: 740px;
 	position: absolute;
 	color: transparent;
 }
 
 #label4 {
 	width: auto;
-	height: 13px;
+	height: 14px;
 	top: 117px;
-	left: 742px;
+	left: 740px;
 	position: absolute;
 	text-shadow: rgb(255, 255, 255) 0px 0px 0px;
 	color: transparent;
@@ -206,7 +272,7 @@
 
 #label3 {
 	width: auto;
-	height: 15px;
+	height: 14px;
 	top: 224px;
 	left: 411px;
 	position: absolute;
@@ -214,7 +280,7 @@
 
 #label2 {
 	width: auto;
-	height: 15px;
+	height: 14px;
 	top: 171px;
 	left: 411px;
 	position: absolute;
@@ -222,7 +288,7 @@
 
 #label1 {
 	width: auto;
-	height: 15px;
+	height: 14px;
 	top: 116px;
 	left: 411px;
 	position: absolute;
@@ -454,10 +520,10 @@
 	left: 0px;
 	right: 0px;
 	position: absolute;
-	-webkit-box-shadow: rgba(0, 0, 0, 0.199219) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgba(0, 0, 0, 0.199219) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgba(0, 0, 0, 0.199219) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
-	box-shadow: rgba(0, 0, 0, 0.199219) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+	box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
 	background-color: rgb(255, 255, 255);
 }
 

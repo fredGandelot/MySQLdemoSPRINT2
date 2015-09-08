@@ -60,6 +60,9 @@
 			"package": "Image"
 		},
 		{
+			"package": "Container"
+		},
+		{
 			"file": "styles/index.css"
 		},
 		{

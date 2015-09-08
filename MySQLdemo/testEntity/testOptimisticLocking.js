@@ -1,6 +1,7 @@
-var e = ds.accounts.query('').first();
-e.name = "eeeeee";
-var f = ds.accounts.query('').first();
+var e = ds.accounts.first();
+//à chaque fois changer la valeur
+e.name = "eeeau";
+var f = ds.accounts.first();
 f.name = "ffffff";
 
 e.save()
