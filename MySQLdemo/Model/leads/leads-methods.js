@@ -22,3 +22,16 @@ return result;
 
 //METHOD COLLECTION
 
+model.leads.collectionMethods.coll = function () {
+	
+//	 var results = [];         //empty array
+//    //in this context, this is an entity collection
+//    //so we can cycle through the entities using forEach
+//    this.forEach(function(theStudent)
+//    {
+//        results.push({
+//        name: theStudent.firstName + ' ' + theStudent.lastName,
+//        GPA: theStudent.getGPA(year)});
+//    })
+	
+};
