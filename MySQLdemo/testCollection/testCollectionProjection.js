@@ -1,3 +1,4 @@
 var collection = ds.accounts.query('');
 //projection
-collection.industry;
+collection.name;
+//collection.distinctValues();

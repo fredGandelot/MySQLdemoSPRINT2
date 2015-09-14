@@ -1,11 +1,12 @@
 
 //createEntity
 
-//var entity = ds.accounts.createEntity();
-////change some attributes
-//entity.id = "kjhkjh";
-//entity.name="hamza";
-////entity.save();
+var entity = ds.accounts.createEntity();
+//change some attributes
+entity.id = "kjhjkjh";
+entity.name="hamza";
+entity.save();
+entity.getStamp();
 //entity
 
 //var oups =ds.accounts.createEntity();

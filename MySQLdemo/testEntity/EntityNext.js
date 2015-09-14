@@ -1,6 +1,18 @@
-//next()
-var collection = ds.accounts.query('id >=:1', '196a8fcd-1884-2a71-0b37-55acbdf188f6');
-var ent = collection.first();
+//===exemple loopp
 
-//iteration
-ent.next();
+//var myColl = ds.accounts.query("deleted = :1", 0);
+//// myColl; 
+//for (var account = myColl.first(); account != null; account=account.next())  
+//{
+//   	account.name = account.name.toUpperCase();
+//    account.save();
+//}
+
+
+//==exemple simple
+
+var coll = ds.accounts.query('deleted == 0')
+var uno = coll.first();
+uno;
+var deuzio = uno.next();
+deuzio;

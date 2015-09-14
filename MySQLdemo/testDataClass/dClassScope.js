@@ -1,2 +1,2 @@
 //getScope()
-ds.leads.getScope();  //always public
+ds.accounts_audit.getScope();  //Should be PrivateOnServer but it's always public

@@ -1,0 +1,13 @@
+var id = ds.leads.id;
+var imageid = ds.leads.leads_image_id;
+// id.dataClass;
+ //id.fullTextIndexed;
+// id.indexed ;
+// id.indexType ;
+// id.kind;
+// id.name ;
+//imageid.relatedDataClass;  
+//id.scope  ;
+imageid.type;
+//id.getName( )  ;
+ imageid.toString( )  ;

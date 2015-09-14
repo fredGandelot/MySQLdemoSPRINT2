@@ -1,4 +1,4 @@
-var collection = ds.contacts.query('');
+var collection = ds.leads.query('first_name == moinow');
 
 //forEach
 var l = [];

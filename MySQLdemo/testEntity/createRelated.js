@@ -4,11 +4,13 @@
 
 //creation
 var e = ds.leads.createEntity()
-e.first_name ="moinow30" ;
+e.first_name ="moinow31" ;
 e.last_name="pepito3";
 e.leads_image_id = ds.leads_image.find("ID == d7ed53d1-3b4f-11e5-9b4b-14feb5b938f8");
 e.save();
 e;
+
+
 
 
 ////verification

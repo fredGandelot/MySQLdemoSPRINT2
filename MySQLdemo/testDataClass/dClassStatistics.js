@@ -1,10 +1,16 @@
 ////find max and min of a dataClass
-//ds.users.min("lastName");
-//ds.users.min("birthday");
+ds.leads.min("last_name");
+ds.users.max("last_name");
 
 ////sum function
-//ds.users.sum("id");
+ds.leads.sum("converted");
 
 
 //compute()
 ds.accounts.compute("date_entered");
+
+
+//average
+ds.leads.average("converted")
+
+

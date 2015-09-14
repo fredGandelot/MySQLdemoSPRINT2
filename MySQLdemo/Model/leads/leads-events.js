@@ -1,9 +1,21 @@
 
 
-//generateUUID
+//=====generateUUID
 model.leads.events.init = function(event) {
 	return this.id = generateUUID()
 }	
+	
+	
+//ATTRIBUT LASTNAME NOT NULL ON VALIDATE
+model.leads.last_name.events.validate = function() {
+    if (this.last_name == null)  {
+        return {error: 7, errorMessage: 'last_name must be declared'};
+    }
+    else {
+        return {error: 0}; //Same as no error
+    } 
+}
+
 	
 //FULLNAME	
 model.leads.fullName.onGet = function() {
