@@ -1,3 +1,12 @@
+//NEW RELATIONS !
+//leads>Account
+model.leads.account = new Attribute("relatedEntity", "accounts", "accounts", { foreignKey : "account_id" });
+model.accounts.leadsAccountCollection = new Attribute("relatedEntities", "leadsCollection", "account", {reversePath : true});
+
+//leads>Contact
+model.leads.contact = new Attribute("relatedEntity", "contacts", "contacts", { foreignKey : "contact_id" });
+model.contacts.leadsContactCollection = new Attribute("relatedEntities", "leadsCollection", "contact", {reversePath : true});
+
 //SCOPE
 model.accounts_audit.properties.scope ="publicOnServer"
 
@@ -7,6 +16,7 @@ model.accounts_audit.properties.scope ="publicOnServer"
 
 
 //LEADS TABLE
+
 //CALCULATED
 model.leads.fullName=new Attribute("calculated","string") ;
 

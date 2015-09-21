@@ -3,6 +3,51 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#dataGrid8 {
+	z-index: 7;
+	width: 525px;
+	height: 300px;
+	top: 356px;
+	left: 74px;
+	position: absolute;
+}
+
+#dataGrid7 {
+	z-index: 6;
+	width: 524px;
+	height: 300px;
+	top: 46px;
+	left: 71px;
+	position: absolute;
+}
+
+#container4 {
+	z-index: 7;
+	top: 23px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#richText4 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem4 {
+	z-index: 4;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
 #dataGrid6 {
 	z-index: 2;
 	width: 335px;
@@ -470,8 +515,8 @@
 
 #richText3 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -497,8 +542,8 @@
 
 #richText2 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -558,7 +603,7 @@
 	height: 23px;
 	top: 0px;
 	left: 0px;
-	right: 795px;
+	right: 724px;
 	position: absolute;
 }
 
