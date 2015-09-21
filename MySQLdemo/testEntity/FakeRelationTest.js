@@ -12,7 +12,7 @@ var e = b.leadsAccountCollection.first()
 
 e.id;  //FONCTIONNE
 
-[e.first_name,e.last_name] ; //FONCTIONNE PAS 
+e.fullName; //FONCTIONNE PAS 
 
 //e.leadsAccountCollection.leads_image_id.PHOTO;
 
