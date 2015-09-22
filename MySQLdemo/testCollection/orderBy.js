@@ -17,7 +17,7 @@ a;
 
 //======== OrderBy relation
 
-//ds.leads.query('leads_image_id is not null').orderBy('leads_image_id.ID')
+ds.leads.query('leads_image_id is not null').orderBy('leads_image_id.ID')
 
 
 

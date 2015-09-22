@@ -2,9 +2,17 @@
 
 
 var bug =ds.leads.query('leads_image_id is not null');
-bug; // all the same >_< weird :)))
+//bug; // all the same >_< weird :)))
 bug.leads_image_id //(does not work for the related attribute)
 
+
+var a = ds.leads.query('leads_image_id =:1', "c492f0b0-3b4f-11e5-9b4b-14feb5b938f8");
+a;
+
+//var d = ds.leads_image('c492f0b0-3b4f-11e5-9b4b-14feb5b93838');
+//d;
+var b = ds.leads.find('leads_image_id = :1', "c492f0b0-3b4f-11e5-9b4b-14feb5b93838");
+b;
 
 ////Selection d'un Lead
 //var l = ds.leads.first()
