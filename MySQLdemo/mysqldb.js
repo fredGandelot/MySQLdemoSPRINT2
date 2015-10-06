@@ -7,9 +7,15 @@ model.accounts.leadsAccountCollection = new Attribute("relatedEntities", "leadsC
 model.leads.contact = new Attribute("relatedEntity", "contacts", "contacts", { foreignKey : "contact_id" });
 model.contacts.leadsContactCollection = new Attribute("relatedEntities", "leadsCollection", "contact", {reversePath : true});
 
-//SCOPE
-model.accounts_audit.properties.scope ="publicOnServer"
 
+//SCOPE DATACLASSE
+//model.contacts.properties.scope = "publicOnServer";
+
+
+
+//ATTRIBUTE SCOPE
+//model.accounts.name.scope ="publicOnServer";
+//model.leads.assigned_user_id.scope ="publicOnServer"
 
 //LEADS_IMAGE TABLE
  model.leads_image.PHOTO.type = "image";
@@ -25,8 +31,6 @@ include("./Model/leads/leads-events.js");
 
 //METHOD
 include ("./Model/leads/leads-methods.js");
-
-
 
 
 //ACCOUNT TABLE

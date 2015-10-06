@@ -12,7 +12,7 @@ var e = b.leadsAccountCollection.first()
 
 e.id;  //FONCTIONNE
 
-e.fullName; //FONCTIONNE PAS 
+e.fullName; //FONCTIONNE PAS ==> CORRIGE NOW FONCTIONNE
 
 //e.leads_image_id.PHOTO; //FONCTIONNE 
 
@@ -22,3 +22,12 @@ e.fullName; //FONCTIONNE PAS
 //ds.leads("3328d3c7-c206-db71-c8e2-559502ca0109");
 
 //var a = ds.accounts.query('leadsAccountCollection  is not null');a;
+
+
+
+
+///////////////
+
+
+
+

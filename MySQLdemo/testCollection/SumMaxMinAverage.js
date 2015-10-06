@@ -7,9 +7,14 @@
 
 var collection = ds.leads.query('');
 //collection.converted;
-collection.max("id");
+//collection.max("id");
 //collection.min("id");
-collection.minus('id');
-//collection.sum("converted");
+//collection.minus('id');
+var a = collection.sum("converted");
 //collection.average("converted")
 //collection.compute("converted");
+
+
+
+typeof a;
+

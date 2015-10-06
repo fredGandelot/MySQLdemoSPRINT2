@@ -32,3 +32,6 @@ ds.leads('3328d3c7-c206-db71-c8e2-559502ca0109').account.name
 var uno = ds.accounts.find('name = :1', "fredAccount2") ;
 var que = ds.accounts.find('name = :1', uno.name).name;
 que;
+
+
+var a = ds

@@ -45,6 +45,10 @@
 			"type": "widget"
 		},
 		{
+			"id": "Widget/image",
+			"type": "widget"
+		},
+		{
 			"package": "lilac"
 		},
 		{

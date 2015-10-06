@@ -3,9 +3,27 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#image2 {
+	z-index: 6;
+	width: 207px;
+	height: 202px;
+	top: 103px;
+	left: 615px;
+	position: absolute;
+}
+
+#image1 {
+	z-index: 6;
+	width: 133px;
+	height: 111px;
+	top: 65px;
+	left: 91px;
+	position: absolute;
+}
+
 #dataGrid7 {
 	z-index: 6;
-	width: 720px;
+	width: 725px;
 	height: 300px;
 	top: 46px;
 	left: 61px;
@@ -49,7 +67,7 @@
 }
 
 #label16 {
-	z-index: 6;
+	z-index: 5;
 	width: auto;
 	height: 14px;
 	top: 195px;
@@ -59,30 +77,11 @@
 }
 
 #dataGrid5 {
-	z-index: 6;
+	z-index: 5;
 	width: 300px;
 	height: 300px;
 	top: 214px;
 	left: 20px;
-	position: absolute;
-}
-
-#label15 {
-	z-index: 4;
-	width: auto;
-	height: 14px;
-	top: 110px;
-	left: 15px;
-	position: absolute;
-	min-width: 75px;
-}
-
-#image5 {
-	z-index: 4;
-	width: 120px;
-	height: 110px;
-	top: 62px;
-	left: 95px;
 	position: absolute;
 }
 

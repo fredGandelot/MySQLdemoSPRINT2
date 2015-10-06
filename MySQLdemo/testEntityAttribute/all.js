@@ -1,6 +1,6 @@
 var id = ds.leads.id;
 var imageid = ds.leads.leads_image_id;
-// id.dataClass;
+ id.dataClass;
  //id.fullTextIndexed;
 // id.indexed ;
 // id.indexType ;
@@ -8,6 +8,6 @@ var imageid = ds.leads.leads_image_id;
 // id.name ;
 //imageid.relatedDataClass;  
 //id.scope  ;
-imageid.type;
+//imageid.type;
 //id.getName( )  ;
- imageid.toString( )  ;
+ //imageid.toString( )  ;
