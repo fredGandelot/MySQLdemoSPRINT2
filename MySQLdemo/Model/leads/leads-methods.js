@@ -7,7 +7,7 @@ model.leads.methods.getFirstOnes = function(limit) {
 
 
 
-//METHOD ENTOTY
+//METHOD ENTITY
 
 model.leads.entityMethods.nameCaps = function () {
 

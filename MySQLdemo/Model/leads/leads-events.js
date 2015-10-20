@@ -23,6 +23,34 @@ model.leads.fullName.onGet = function() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 model.leads.fullName.onSet = function(value) {
     var names = value.split(' '); //split value into an array 
     this.first_name = names[0];  

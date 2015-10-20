@@ -37,6 +37,4 @@ include ("./Model/leads/leads-methods.js");
 include("./Model/accounts/accounts-events.js");
 
 
-
-
-
+include("./Model/contacts/contacts-events.js");

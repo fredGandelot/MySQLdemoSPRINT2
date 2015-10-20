@@ -67,6 +67,9 @@
 			"package": "Container"
 		},
 		{
+			"package": "Button"
+		},
+		{
 			"file": "styles/index.css"
 		},
 		{

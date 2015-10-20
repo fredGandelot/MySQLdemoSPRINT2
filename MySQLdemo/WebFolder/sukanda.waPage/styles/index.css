@@ -3,6 +3,79 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#dataGrid2 {
+	z-index: 1;
+	width: 914px;
+	height: 473px;
+	top: 68px;
+	left: 14px;
+	position: absolute;
+}
+
+#container5 {
+	z-index: 8;
+	top: 23px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+#richText5 {
+	z-index: 1;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#menuItem5 {
+	z-index: 5;
+	width: 66px;
+	height: 23px;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+#label8 {
+	z-index: 2;
+	width: auto;
+	height: 14px;
+	top: 15px;
+	left: 65px;
+	position: absolute;
+	text-align: center;
+}
+
+#icon10 {
+	z-index: 2;
+	width: 24px;
+	height: 24px;
+	top: 10px;
+	left: 36px;
+	position: absolute;
+}
+
+#imageButton3 {
+	z-index: 8;
+	width: 130px;
+	height: 45px;
+	top: 624px;
+	left: 622px;
+	position: absolute;
+}
+
+#button1 {
+	z-index: 7;
+	width: 267px;
+	height: 43px;
+	top: 624px;
+	left: 335px;
+	position: absolute;
+}
+
 #image2 {
 	z-index: 6;
 	width: 207px;
@@ -41,8 +114,8 @@
 
 #richText4 {
 	z-index: 1;
-	width: 66px;
-	height: 23px;
+	width: 64px;
+	height: 22px;
 	top: 0px;
 	left: 0px;
 	position: absolute;
@@ -117,8 +190,8 @@
 	z-index: 5;
 	width: 976px;
 	height: 300px;
-	top: 359px;
-	left: 10px;
+	top: 309px;
+	left: 3px;
 	position: absolute;
 }
 
@@ -544,7 +617,7 @@
 	width: 66px;
 	height: 23px;
 	top: 0px;
-	left: 0px;
+	left: auto;
 	position: absolute;
 }
 
@@ -593,7 +666,7 @@
 	height: 23px;
 	top: 0px;
 	left: 0px;
-	right: 724px;
+	right: 653px;
 	position: absolute;
 }
 

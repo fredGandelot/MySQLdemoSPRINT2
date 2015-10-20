@@ -26,11 +26,11 @@
 //===========LIKE OPERATOR================
 
 
-var a = ds.leads.query('first_name = :1', "ayoub");
-//var a = ds.leads.query('first_name like "ayoub"')
+var a = ds.leads.query('first_name = :1', "Jamal");
+//var a = ds.leads.query('first_name like "Jamal"')
 a;
 
-//ds.leads.first();
+ds.leads.first();
 
 //========================PLCEHOLDER CONSTANT
 
